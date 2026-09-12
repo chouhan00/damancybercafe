@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Second Website Demo | ਸਾਡੀ ਦੂਜੀ ਵੈੱਬਸਾਈਟ</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+      margin: 0;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 80vh;
+      justify-content: center;
+      text-align: center;
+    }
+    .card {
+      max-width: 600px;
+      width: 100%;
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 24px;
+      padding: 36px;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4);
+    }
+    .badge {
+      display: inline-block;
+      padding: 6px 14px;
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      color: #34d399;
+      font-size: 12px;
+      font-weight: 700;
+      border-radius: 9999px;
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-size: 28px;
+      margin: 0 0 12px;
+      color: #ffffff;
+    }
+    p {
+      color: #94a3b8;
+      font-size: 15px;
+      line-height: 1.6;
+      margin: 0 0 24px;
+    }
+    .btn {
+      display: inline-block;
+      background: #06b6d4;
+      color: #020617;
+      padding: 12px 24px;
+      border-radius: 12px;
+      font-weight: 800;
+      text-decoration: none;
+      font-size: 14px;
+      transition: all 0.2s;
+    }
+    .btn:hover {
+      background: #22d3ee;
+      transform: translateY(-2px);
+    }
+    .status-box {
+      margin-top: 24px;
+      background: #0f172a;
+      border: 1px dashed #475569;
+      border-radius: 14px;
+      padding: 16px;
+      font-size: 13px;
+      color: #cbd5e1;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">🌐 Connected to Daman Cyber Cafe Admin</div>
+    <h1>ਸਾਡੀ ਦੂਜੀ ਵੈੱਬਸਾਈਟ (Second Website)</h1>
+    <p>
+      ਇਹ ਪੇਜ ਤੁਹਾਡੀ ਦੂਜੀ ਵੈੱਬਸਾਈਟ ਦੀ ਉਦਾਹਰਣ ਹੈ। ਇਹ Daman Cyber Cafe ਦੇ Admin Panel ਨਾਲ ਜੁੜਿਆ ਹੋਇਆ ਹੈ।
+      ਜਦੋਂ ਵੀ ਐਡਮਿਨ ਵਿੱਚੋਂ <strong>OFFLINE</strong> ਬਟਨ ਦਬਾਇਆ ਜਾਵੇਗਾ, ਇਹ ਪੇਜ ਵੀ ਆਟੋਮੈਟਿਕ ਬੰਦ ਹੋ ਜਾਵੇਗਾ!
+    </p>
+
+    <a href="/admin" target="_blank" class="btn">
+      🔑 ਐਡਮਿਨ ਪੈਨਲ ਵਿੱਚ ਬਟਨ ਦਬਾ ਕੇ ਟੈਸਟ ਕਰੋ (Open Admin)
+    </a>
+
+    <div class="status-box">
+      <strong>ਸਕ੍ਰਿਪਟ ਲਿੰਕ:</strong> <code>&lt;script src="/daman-status-embed.js"&gt;&lt;/script&gt;</code>
+    </div>
+  </div>
+
+  <!-- Daman Cyber Cafe Remote Controller Script -->
+  <script src="/daman-status-embed.js"></script>
+</body>
+</html>
